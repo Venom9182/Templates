@@ -24,17 +24,17 @@ public:
 	}
 
 	void update(int ind, int low, int high, int val, int i) {
-        if(low == high) {
-            seg[ind] = val;
-            return ;
-        }
-
-        int mid = (low + high) >> 1;
-        if(i <= mid) update(2 * ind + 1, low, mid, val, i);
-        else update(2 * ind + 2, mid + 1, high, val, i);
-
-        seg[ind] = min(seg[2 * ind + 1], seg[2 * ind + 2]);
-    }
+	        if(low == high) {
+	            seg[ind] = val;
+	            return ;
+	        }
+	
+	        int mid = (low + high) >> 1;
+	        if(i <= mid) update(2 * ind + 1, low, mid, val, i);
+	        else update(2 * ind + 2, mid + 1, high, val, i);
+	
+	        seg[ind] = min(seg[2 * ind + 1], seg[2 * ind + 2]);
+    	}
     
 	int query(int ind, int low, int high, int l , int r){
 		// complete overlap 
