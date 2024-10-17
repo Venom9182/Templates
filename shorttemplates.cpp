@@ -2,6 +2,7 @@
 #define pb push_back
 #define vv vector<vector<int>>
 #define pii pair<int, int>
+#define sort(arr) sort(arr.begin(), arr.end())
 #define mp make_pair
 #define umap unordered_map
 #define forn(i, n) for(int i = 0; i < n; i++)
