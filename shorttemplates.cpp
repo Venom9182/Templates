@@ -1,7 +1,8 @@
 #define vci vector<int>
 #define vcs vector<string>
 #define pb push_back
-#define vv vector<vector<int>>
+#define vvi vector<vector<int>>
+#define vvs vector<vector<string>>
 #define pii pair<int, int>
 #define sort(arr) sort(arr.begin(), arr.end())
 #define acc(arr) accumulate(arr.begin(), arr.end(), 0)
