@@ -1,4 +1,5 @@
-#define vc vector<int>
+#define vci vector<int>
+#define vcs vector<string>
 #define pb push_back
 #define vv vector<vector<int>>
 #define pii pair<int, int>
