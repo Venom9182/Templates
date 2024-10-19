@@ -6,6 +6,8 @@
 #define acc(arr) accumulate(arr.begin(), arr.end(), 0)
 #define mp make_pair
 #define umap unordered_map<int, int>
+#define mxpq priority_queue<int>
+#define mnpq priority_queue<int, vector<int>, greater<int>> 
 #define forn(i, n) for(int i = 0; i < n; i++)
 #define fore(i, a, b) for(int i = a; i <= b; i++)
 #define debug(x) cout << #x << ": " << x << endl;
