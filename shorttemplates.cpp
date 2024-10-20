@@ -1,7 +1,10 @@
 #define vci vector<int>
+#define vcl vector<long long>
+#define ll long long
 #define vcs vector<string>
 #define pb push_back
 #define vvi vector<vector<int>>
+#define vvl vector<vector<long long>>
 #define vvs vector<vector<string>>
 #define pii pair<int, int>
 #define sort(arr) sort(arr.begin(), arr.end())
