@@ -8,6 +8,7 @@
 #define vvs vector<vector<string>>
 #define pii pair<int, int>
 #define sort(arr) sort(arr.begin(), arr.end())
+#define sort_desc(arr) sort(arr.begin(), arr.end(), greater<int>())
 #define acc(arr) accumulate(arr.begin(), arr.end(), 0)
 #define mp make_pair
 #define umap unordered_map<int, int>
